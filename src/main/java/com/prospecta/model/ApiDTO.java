@@ -1,6 +1,6 @@
 package com.prospecta.model;
 
-import com.fasterxml.jackson.annotation.JsonProperty;
+
 
 public class ApiDTO {
 	

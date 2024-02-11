@@ -30,6 +30,7 @@ public class ApiService {
     
     public ApiEntry saveNewEntry(ApiEntry newApiEntry) {
     	
+    	// check for duplicate entries using id field or any desired field.
     	Optional<ApiEntry> optional = apiRepository.findById(newApiEntry.getId());
     	
     	if(!optional.isPresent()) {
