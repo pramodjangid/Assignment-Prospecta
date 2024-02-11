@@ -1,0 +1,54 @@
+Theoretical Challenge
+
+
+1. How will you tackle the challenge above?
+
+-- First, I'll read the CSV file line by line.
+-- Then, for each line, I'll split it into individual parts based on commas.
+-- Next, I'll evaluate each part to determine if it's a formula or a value.
+-- If it's a formula, I'll calculate its value by recursively evaluating its components.
+-- Finally, I'll write the results to an output CSV file.
+
+
+
+2. What type of errors you would you check for?
+
+-- I'll check for file-related errors, such as not being able to open or read the input file, or not being able to write to the output file.
+-- I'll validate the CSV format to ensure it matches expectations, like having the correct number of columns and valid data types.
+-- I'll handle formula-related errors, such as circular dependencies or invalid references to cells.
+-- I'll also consider edge cases, like empty cells or invalid formulas.
+
+
+3. How might a user break your code?
+
+-- Users might provide CSV files with unexpected formats, such as missing columns or invalid data.
+-- They might use circular references or invalid formulas that could cause the program to get stuck in an infinite loop.
+-- Input files with extremely large datasets could exceed memory limits or cause performance issues.
+-- Users might not handle the output CSV file properly, leading to overwritten or corrupted data.
+
+
+
+
+
+Coding Challenge 
+
+
+3) Question: what are the key things you would consider when creating/consuming an API to ensure that it is secure and reliable?
+
+   Answer: API is a crucial thing in web development. I always consider few things when i design an end point.
+
+    1. Control Access: Only let authorized users or programs use your API.
+
+    2. Validate Data: Check that the information going in is clean and won't cause problems.
+
+    3. Encrypt Traffic: Keep the data traveling between your API and users safe from prying eyes with encryption.
+
+    4. Limit Use: Prevent your API from being overwhelmed by controlling how much it's used.
+
+    5. Provide Clear Feedback: Explain clearly when something goes wrong so users can fix it easily.
+
+    6. Stay Flexible: Make your API easy to update without breaking existing stuff.
+
+    7. Monitor Performance: Keep an eye on how your API is doing to catch problems early.
+
+    8. Document Everything: Write down how your API works so people can use it without getting lost.
